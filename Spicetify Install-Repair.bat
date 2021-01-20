@@ -43,9 +43,4 @@ cls
 PowerShell.exe -Command "spicetify backup"
 PowerShell.exe -Command "spicetify apply"
 cls
-
-::CLEANUP
-del %userprofile%\Downloads\Spicetify-master.zip /s /q>nul
-rmdir %userprofile%\Downloads\Spicetify-master /s /q>nul
-cls
 call "%userprofile%\Spicetify\Theme Select"
