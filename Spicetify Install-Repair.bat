@@ -45,6 +45,7 @@ PowerShell.exe -Command "spicetify apply"
 cls
 
 ::CLEANUP
-rmdir %userprofile%\Downloads\Spicetify-Installer-main /s /q
+del %userprofile%\Downloads\Spicetify-master.zip /s /q>nul
+rmdir %userprofile%\Downloads\Spicetify-master /s /q>nul
 cls
 call "%userprofile%\Spicetify\Theme Select"
